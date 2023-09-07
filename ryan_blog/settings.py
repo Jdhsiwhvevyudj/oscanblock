@@ -80,13 +80,14 @@ WSGI_APPLICATION = 'ryan_blog.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ryanblog_DB',
+        'NAME': 'postgfp_db',
         'USER': 'postgres', 
-        'PASSWORD': 'hello', 
-        'HOST': 'localhost'
+        'PASSWORD': 'hveer6pol9id2cd', 
+        'HOST': 'remote.runflare.com:32552'
     }
 }
 
