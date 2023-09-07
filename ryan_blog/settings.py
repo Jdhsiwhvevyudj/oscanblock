@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'postgfp_db',
         'USER': 'postgres', 
         'PASSWORD': 'hveer6pol9id2cd', 
-        'HOST': 'post-tcg-service'
+        'HOST': 'remote.runflare.com:32552'
     }
 }
 
