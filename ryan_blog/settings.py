@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'ryan_blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'oghyanos_blog.db',
+        'NAME': 'postgfp_db',
         'USER': 'postgres', 
-        'PASSWORD': 'nima1378', 
-        'HOST': 'localhost'
+        'PASSWORD': 'hveer6pol9id2cd', 
+        'HOST': 'post-tcg-service'
     }
 }
 
