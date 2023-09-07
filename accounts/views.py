@@ -25,7 +25,7 @@ def register(request):
           return redirect('register')
         else:
           # It's Good
-          user = User.objects.create_user(username=username, password=password, email=email, first_name=name)
+          user = User.objects.create_user(username=username, password=password, email=email, first_name=name) # type: ignore
           
           # Create blogger
           blogger = Blogger.objects.create(user=user, name=name, email=email)

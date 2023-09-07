@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-=*km(2btqmy53me8)8b@0i!^@d%uzt-nk$(bmd5kb5uae*u!b$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['oscanshop.com','www.oscanshop.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'ryan_blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'oghyanos_blog.db',
+        'NAME': 'postgfp_db',
         'USER': 'postgres', 
-        'PASSWORD': 'nima1378', 
-        'HOST': 'localhost'
+        'PASSWORD': 'hveer6pol9id2cd', 
+        'HOST': 'post-tcg-service'
     }
 }
 

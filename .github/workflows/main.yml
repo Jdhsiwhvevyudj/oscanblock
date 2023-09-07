@@ -11,7 +11,7 @@ jobs:
     - name:  Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ftp.mhmdhoseinzade.ir
-        username: mhmdhose
-        password: ${{ secrets.ftp_password }}
+        server: ftp.oscanshop.com
+        username: oscansho
+        password: ${{ 81Y8ru7-ZC9sJ }}
         server-dir: /project/
