@@ -85,7 +85,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'firstkoe_db',
-        'USER': 'nimaoghyanosi5@gmail.com', 
+        'USER': 'postgres', 
         'PASSWORD': '12m92lbd1a2hxiz', 
         'HOST': 'post-tcg-service'
     }
