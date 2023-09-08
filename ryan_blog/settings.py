@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'firstkoe_db',
         'USER': 'postgres', 
         'PASSWORD': '12m92lbd1a2hxiz', 
-        'HOST': 'remote.runflare.com:30789'
+        'HOST': 'first-jtx-service'
 
     }
 }
