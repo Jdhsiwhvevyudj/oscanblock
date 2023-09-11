@@ -84,9 +84,9 @@ WSGI_APPLICATION = 'ryan_blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgfp_db',
+        'NAME': 'firstkoe_db',
         'USER': 'postgres', 
-        'PASSWORD': 'hveer6pol9id2cd', 
+        'PASSWORD': '12m92lbd1a2hxiz', 
         'HOST': 'first-jtx-service'
     }
 }
