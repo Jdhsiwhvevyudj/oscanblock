@@ -84,14 +84,12 @@ WSGI_APPLICATION = 'ryan_blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'firstkoe_db',
+        'NAME': 'postgfp_db',
         'USER': 'postgres', 
-        'PASSWORD': '12m92lbd1a2hxiz', 
-        'HOST': 'first-jtx-service'
-
+        'PASSWORD': 'hveer6pol9id2cd', 
+        'HOST': 'remote.runflare.com:32552'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
