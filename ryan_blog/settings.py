@@ -125,7 +125,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = '/public/static/'
+#STATIC_URL = '/public/static/'
+STATIC_URL = 'http://188.40.16.3:31434/data/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "public","static")
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'ryan_blog/static')
@@ -137,7 +138,8 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Meida Folder
-MEDIA_URL = '/public/media/'
+#MEDIA_URL = '/public/media/'
+MEDIA_URL = 'http://188.40.16.3:31434/data/media/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "public","media")
 
