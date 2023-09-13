@@ -148,3 +148,15 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+
+# CUSTOM VARS
+POST_FILE_ALLOWED_EXTENSIONS = ["jpg", "jpeg", "png", "gif", "mp4", "mkv", "mov", "avi"]
+CHAT_FILE_ALLOWED_EXTENSIONS = ["jpg", "jpeg", "png", "gif", "mp4", "mkv", "mov", "avi", "pdf"]
+
+ABSOLUTE_URL_OVERRIDES = {
+    'auth.user': lambda u: "/@%s/" % u.username,
+}
+
+
+
