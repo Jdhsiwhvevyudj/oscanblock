@@ -34,6 +34,7 @@ eggs/
 lib/
 lib64/
 parts/
+models_schemas.txt
 sdist/
 var/
 wheels/
