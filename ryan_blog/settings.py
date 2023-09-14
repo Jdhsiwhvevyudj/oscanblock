@@ -138,7 +138,6 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Meida Folder
-MEDIA_URL = 'media/'
 #MEDIA_URL = 'http://188.40.16.3:31434/data/media/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "public","media")
@@ -149,14 +148,6 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
-
-# CUSTOM VARS
-POST_FILE_ALLOWED_EXTENSIONS = ["jpg", "jpeg", "png", "gif", "mp4", "mkv", "mov", "avi"]
-CHAT_FILE_ALLOWED_EXTENSIONS = ["jpg", "jpeg", "png", "gif", "mp4", "mkv", "mov", "avi", "pdf"]
-
-ABSOLUTE_URL_OVERRIDES = {
-    'auth.user': lambda u: "/@%s/" % u.username,
-}
 
 
 
