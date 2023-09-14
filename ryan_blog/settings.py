@@ -138,7 +138,7 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Meida Folder
-MEDIA_URL = '/app/public/media'
+MEDIA_URL = '/public/media/'
 #MEDIA_URL = 'http://188.40.16.3:31434/data/media/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "public","media")
